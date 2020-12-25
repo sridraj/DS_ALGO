@@ -10,10 +10,21 @@ namespace DataStructuresAndAlgorithms
             //var reversedString = array.ReverseString2("Hi My name is Sriditya");
             //Console.WriteLine(reversedString);
 
-            var a = new MergeSortedArrays();
-            int[] array1 = { 1, 2, 6, 78, 99 };
-            int[] array2 = { 5, 6, 8, 66, 90, 110 };
-            var mergesSortedArrays = a.MergeTwoSortedArrays(array1, array2);
+            //var a = new MergeSortedArrays();
+            //int[] array1 = { 1, 2, 6, 78, 99 };
+            //int[] array2 = { 5, 6, 8, 66, 90, 110 };
+            //var mergesSortedArrays = a.MergeTwoSortedArrays(array1, array2);
+
+            var hashClass = new HashTableImplementation(2);
+            hashClass.SetValue("Sriditya", 25);
+            hashClass.SetValue("Raj", 26);
+            var hashTable =  hashClass.SetValue("David", 55);
+
+            var hashTableGetValue = hashClass.GetValue("Raj");
+            var hashTableGetValue2 = hashClass.GetValue("Sriditya");
+            var hashTableGetValue3 = hashClass.GetValue("David");
+
+
         }
     }
 }
