@@ -6,7 +6,7 @@ namespace DataStructuresAndAlgorithms
     {
         static void Main(string[] args)
         {
-            var array = new ArrayImplementation();
+            var array = new StringReversal();
             var reversedString = array.ReverseString2("Hi My name is Sriditya");
             Console.WriteLine(reversedString);
         }

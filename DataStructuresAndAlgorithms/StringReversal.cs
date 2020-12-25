@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DataStructuresAndAlgorithms
 {
-    public class ArrayImplementation
+    public class StringReversal
     {
-        public ArrayImplementation()
+        public StringReversal()
         {
 
         }
