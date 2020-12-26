@@ -18,11 +18,19 @@ namespace DataStructuresAndAlgorithms
             var hashClass = new HashTableImplementation(2);
             hashClass.SetValue("Sriditya", 25);
             hashClass.SetValue("Raj", 26);
-            var hashTable =  hashClass.SetValue("David", 55);
+            hashClass.SetValue("David", 55);
+            hashClass.SetValue("Thomas", 21);
+            hashClass.SetValue("Juan", 23);
+            hashClass.SetValue("Kylie", 36);
+
+
+
 
             var hashTableGetValue = hashClass.GetValue("Raj");
             var hashTableGetValue2 = hashClass.GetValue("Sriditya");
             var hashTableGetValue3 = hashClass.GetValue("David");
+
+            var keys = hashClass.GetKeys();
 
 
         }

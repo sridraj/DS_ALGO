@@ -76,5 +76,22 @@ namespace DataStructuresAndAlgorithms
 
             return 0;
         }
+
+        public List<string> GetKeys()
+        {
+            var keys = new List<string>();
+            for(int i = 0; i < hashTable.Length; i++)
+            {
+                if(hashTable[i] != null)
+                {
+                    foreach(var item  in hashTable[i])
+                    {
+                        keys.Add(item.Key);
+                    }
+                }
+            }
+
+            return keys;
+        }
     }
 }
