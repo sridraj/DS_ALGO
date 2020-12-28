@@ -109,7 +109,9 @@ namespace DataStructuresAndAlgorithms
             }
 
             LinkedListNode prevNode = head;
+            var tempNode = head;
             head = tail;
+            tail = tempNode;
             LinkedListNode nextNode = prevNode.next;
 
             for(int i = 0; i < length - 1; i++)
@@ -119,8 +121,6 @@ namespace DataStructuresAndAlgorithms
                 prevNode = nextNode;
                 nextNode = temp;
             }
-
-            tail = nextNode;
         }
 
         public void PrintList()

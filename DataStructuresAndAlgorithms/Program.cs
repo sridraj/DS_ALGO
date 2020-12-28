@@ -37,33 +37,33 @@ namespace DataStructuresAndAlgorithms
             //var firstRecurringCharacter = x.FindFirstRecurringNumberUsingHash(arr);
             //var firstRecurringCharacterUsingList = x.FindFirstRecurringNumberUsingList(arr);
 
-            //var singlyLinkedList = new SinglyLinkedList();
-            //singlyLinkedList.Append(1);
-            //singlyLinkedList.Append(5);
-            //singlyLinkedList.Append(10);
-            //singlyLinkedList.Append(1);
-            //singlyLinkedList.Prepend(15);
-            //singlyLinkedList.Append(20);
-            //singlyLinkedList.InsertAtindex(3, 110);
-            //singlyLinkedList.InsertAtindex(0, 32);
-            //singlyLinkedList.InsertAtindex(7, 150);
-            //singlyLinkedList.DeleteAtIndex(4);
-            //singlyLinkedList.ReverseLinkedList();
-            //singlyLinkedList.PrintList();
+            var singlyLinkedList = new SinglyLinkedList();
+            singlyLinkedList.Append(1);
+            singlyLinkedList.Append(5);
+            singlyLinkedList.Append(10);
+            singlyLinkedList.Append(1);
+            singlyLinkedList.Prepend(15);
+            singlyLinkedList.Append(20);
+            singlyLinkedList.InsertAtindex(3, 110);
+            singlyLinkedList.InsertAtindex(0, 32);
+            singlyLinkedList.InsertAtindex(7, 150);
+            singlyLinkedList.DeleteAtIndex(4);
+            singlyLinkedList.ReverseLinkedList();
+            singlyLinkedList.PrintList();
 
-            var doublyList = new DoublyLinkedList();
-            doublyList.Append(1);
-            doublyList.Append(5);
-            doublyList.Append(10);
-            doublyList.Append(1);
-            doublyList.Prepend(15);
-            doublyList.Append(20);
+            //var doublyList = new DoublyLinkedList();
+            //doublyList.Append(1);
+            //doublyList.Append(5);
+            //doublyList.Append(10);
+            //doublyList.Append(1);
+            //doublyList.Prepend(15);
+            //doublyList.Append(20);
 
-            doublyList.InsertAtIndex(3, 110);
-            doublyList.InsertAtIndex(0, 32);
-            doublyList.InsertAtIndex(7, 150);
-            doublyList.DeleteAtIndex(6);
-            doublyList.PrintList();
+            //doublyList.InsertAtIndex(3, 110);
+            //doublyList.InsertAtIndex(0, 32);
+            //doublyList.InsertAtIndex(7, 150);
+            //doublyList.DeleteAtIndex(6);
+            //doublyList.PrintList();
 
 
         }
