@@ -65,28 +65,58 @@ namespace DataStructuresAndAlgorithms
             //doublyList.DeleteAtIndex(6);
             //doublyList.PrintList();
 
-            var stackClass = new StackUsingArray();
-            stackClass.Push("Sriditya");
-            stackClass.Push("Raj");
-            stackClass.Push("Johnson");
-            stackClass.Push("Philips");
-            stackClass.Pop();
-            stackClass.Pop();
-            stackClass.Push("Amanda");
-            stackClass.Peek();
-            stackClass.PrintStack();
+            //var stackClass = new StackUsingArray();
+            //stackClass.Push("Sriditya");
+            //stackClass.Push("Raj");
+            //stackClass.Push("Johnson");
+            //stackClass.Push("Philips");
+            //stackClass.Pop();
+            //stackClass.Pop();
+            //stackClass.Push("Amanda");
+            //stackClass.Peek();
+            //stackClass.PrintStack();
 
 
-            var stackClass2 = new StackUsingLinkedList();
-            stackClass2.Push("Sriditya");
-            stackClass2.Push("Raj");
-            stackClass2.Push("Johnson");
-            stackClass2.Push("Philips");
-            stackClass2.Pop();
-            stackClass2.Pop();
-            stackClass2.Push("Amanda");
-            stackClass2.Peek();
-            stackClass2.PrintStack();
+            //var stackClass2 = new StackUsingLinkedList();
+            //stackClass2.Push("Sriditya");
+            //stackClass2.Push("Raj");
+            //stackClass2.Push("Johnson");
+            //stackClass2.Push("Philips");
+            //stackClass2.Pop();
+            //stackClass2.Pop();
+            //stackClass2.Push("Amanda");
+            //stackClass2.Peek();
+            //stackClass2.PrintStack();
+
+            //var queueClass = new QueueWithLinkedList();
+            //queueClass.Enqueue("Sriditya");
+            //queueClass.Enqueue("Raj");
+            //queueClass.Enqueue("Johnson");
+            //queueClass.Enqueue("Philips");
+            //queueClass.PrintQueue();
+            //queueClass.Dequeue();
+            //queueClass.PrintQueue();
+            //queueClass.Dequeue();
+            //queueClass.PrintQueue();
+            //queueClass.Enqueue("Amanda");
+            //queueClass.Peek();
+            //queueClass.PrintQueue();
+
+
+            var queueClass2 = new QueueWithStack();
+            queueClass2.Enqueue("Sriditya");
+            queueClass2.Enqueue("Raj");
+            queueClass2.Enqueue("Johnson");
+            queueClass2.Enqueue("Philips");
+            queueClass2.PrintQueue();
+            queueClass2.Dequeue();
+            queueClass2.PrintQueue();
+            queueClass2.Dequeue();
+            queueClass2.PrintQueue();
+            queueClass2.Enqueue("Amanda");
+            queueClass2.Peek();
+            queueClass2.PrintQueue();
+
 
         }
     }
