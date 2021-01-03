@@ -103,19 +103,33 @@ namespace DataStructuresAndAlgorithms
             //queueClass.PrintQueue();
 
 
-            var queueClass2 = new QueueWithStack();
-            queueClass2.Enqueue("Sriditya");
-            queueClass2.Enqueue("Raj");
-            queueClass2.Enqueue("Johnson");
-            queueClass2.Enqueue("Philips");
-            queueClass2.PrintQueue();
-            queueClass2.Dequeue();
-            queueClass2.PrintQueue();
-            queueClass2.Dequeue();
-            queueClass2.PrintQueue();
-            queueClass2.Enqueue("Amanda");
-            queueClass2.Peek();
-            queueClass2.PrintQueue();
+            //var queueClass2 = new QueueWithStack(); 
+            //queueClass2.Enqueue("Sriditya");
+            //queueClass2.Enqueue("Raj");
+            //queueClass2.Enqueue("Johnson");
+            //queueClass2.Enqueue("Philips");
+            //queueClass2.PrintQueue();
+            //queueClass2.Dequeue();
+            //queueClass2.PrintQueue();
+            //queueClass2.Dequeue();
+            //queueClass2.PrintQueue();
+            //queueClass2.Enqueue("Amanda");
+            //queueClass2.Peek();
+            //queueClass2.PrintQueue();
+
+
+            var bstClass = new BinarySearchTree();
+            bstClass.Insert(9);
+            bstClass.Insert(4);
+            bstClass.Insert(6);
+            bstClass.Insert(20);
+            bstClass.Insert(170);
+            bstClass.Insert(15);
+            bstClass.Insert(1);
+            var a = bstClass.LookUp(20);
+            bstClass.printTree(bstClass.root);
+
+
 
 
         }
