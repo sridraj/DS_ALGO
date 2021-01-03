@@ -129,18 +129,35 @@ namespace DataStructuresAndAlgorithms
             //var a = bstClass.LookUp(20);
             //bstClass.printTree(bstClass.root);
 
-            var pqClass = new PriorityQueue();
-            pqClass.Enqueue("Sriditya", 14);
-            pqClass.Enqueue("Raj", 12);
-            pqClass.Enqueue("David", 3);
-            pqClass.Enqueue("Ashok", 8);
-            pqClass.Enqueue("Greene", 4);
-            pqClass.Enqueue("Paul", 13);
-            pqClass.Enqueue("Pete", 1);
-            pqClass.PrintPriorityQueue();
-            pqClass.Dequeue();
-            pqClass.Enqueue("Sri", 15);
+            //var pqClass = new PriorityQueue();
+            //pqClass.Enqueue("Sriditya", 14);
+            //pqClass.Enqueue("Raj", 12);
+            //pqClass.Enqueue("David", 3);
+            //pqClass.Enqueue("Ashok", 8);
+            //pqClass.Enqueue("Greene", 4);
+            //pqClass.Enqueue("Paul", 13);
+            //pqClass.Enqueue("Pete", 1);
+            //pqClass.PrintPriorityQueue();
+            //pqClass.Dequeue();
+            //pqClass.Enqueue("Sri", 15);
 
+            Graph graph = new Graph();
+            graph.AddVertex(0);
+            graph.AddVertex(1);
+            graph.AddVertex(2);
+            graph.AddVertex(3);
+            graph.AddVertex(4);
+            graph.AddVertex(5);
+            graph.AddVertex(6);
+            graph.AddEdges(3, 1);
+            graph.AddEdges(3, 4);
+            graph.AddEdges(4, 2);
+            graph.AddEdges(4, 5);
+            graph.AddEdges(1, 2);
+            graph.AddEdges(1, 0);
+            graph.AddEdges(0, 2);
+            graph.AddEdges(6, 5);
+            graph.ShowConnections();
 
         }
     }
