@@ -118,18 +118,28 @@ namespace DataStructuresAndAlgorithms
             //queueClass2.PrintQueue();
 
 
-            var bstClass = new BinarySearchTree();
-            bstClass.Insert(9);
-            bstClass.Insert(4);
-            bstClass.Insert(6);
-            bstClass.Insert(20);
-            bstClass.Insert(170);
-            bstClass.Insert(15);
-            bstClass.Insert(1);
-            var a = bstClass.LookUp(20);
-            bstClass.printTree(bstClass.root);
+            //var bstClass = new BinarySearchTree();
+            //bstClass.Insert(9);
+            //bstClass.Insert(4);
+            //bstClass.Insert(6);
+            //bstClass.Insert(20);
+            //bstClass.Insert(170);
+            //bstClass.Insert(15);
+            //bstClass.Insert(1);
+            //var a = bstClass.LookUp(20);
+            //bstClass.printTree(bstClass.root);
 
-
+            var pqClass = new PriorityQueue();
+            pqClass.Enqueue("Sriditya", 14);
+            pqClass.Enqueue("Raj", 12);
+            pqClass.Enqueue("David", 3);
+            pqClass.Enqueue("Ashok", 8);
+            pqClass.Enqueue("Greene", 4);
+            pqClass.Enqueue("Paul", 13);
+            pqClass.Enqueue("Pete", 1);
+            pqClass.PrintPriorityQueue();
+            pqClass.Dequeue();
+            pqClass.Enqueue("Sri", 15);
 
 
         }
