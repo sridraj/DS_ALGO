@@ -141,23 +141,34 @@ namespace DataStructuresAndAlgorithms
             //pqClass.Dequeue();
             //pqClass.Enqueue("Sri", 15);
 
-            Graph graph = new Graph();
-            graph.AddVertex(0);
-            graph.AddVertex(1);
-            graph.AddVertex(2);
-            graph.AddVertex(3);
-            graph.AddVertex(4);
-            graph.AddVertex(5);
-            graph.AddVertex(6);
-            graph.AddEdges(3, 1);
-            graph.AddEdges(3, 4);
-            graph.AddEdges(4, 2);
-            graph.AddEdges(4, 5);
-            graph.AddEdges(1, 2);
-            graph.AddEdges(1, 0);
-            graph.AddEdges(0, 2);
-            graph.AddEdges(6, 5);
-            graph.ShowConnections();
+            //Graph graph = new Graph();
+            //graph.AddVertex(0);
+            //graph.AddVertex(1);
+            //graph.AddVertex(2);
+            //graph.AddVertex(3);
+            //graph.AddVertex(4);
+            //graph.AddVertex(5);
+            //graph.AddVertex(6);
+            //graph.AddEdges(3, 1);
+            //graph.AddEdges(3, 4);
+            //graph.AddEdges(4, 2);
+            //graph.AddEdges(4, 5);
+            //graph.AddEdges(1, 2);
+            //graph.AddEdges(1, 0);
+            //graph.AddEdges(0, 2);
+            //graph.AddEdges(6, 5);
+            //graph.ShowConnections();
+
+            //var factorial = new Recursion_Factorial();
+            //factorial.FactorialWithoutrecursion(5);
+            //var value = factorial.FactorialWithRecursion(5);
+
+            //var fibonacci = new Recursion_Fibonacci();
+            //fibonacci.FibonacciIterative(6);
+            //var value = fibonacci.FibonacciRecursive(6);
+
+            var recursiveReverse = new Recursion_StringReversal();
+            var reversedString = recursiveReverse.ReverseString("abcdefghijkl");
 
         }
     }
